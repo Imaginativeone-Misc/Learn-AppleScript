@@ -1,0 +1,1231 @@
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 1/39
+Book Description
+AppleScript is an English-like, easy-to-understand scripting language built into every Mac.
+AppleScript can automate hundreds of AppleScriptable applications, performing tasks both large
+and small, complex and simple.
+Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+has been completely updated for Mac OS X Snow Leopard. It's all here, with an emphasis on practical
+information that will help you solve any automation problem—from the most mundane repetitive
+tasks to highly integrated workflows of complex systems.
+Friendly enough for beginners, detailed enough for advanced AppleScripters
+Includes major contributions from expert AppleScripters: Emmanuel Levy, Harald Monihart, Ian
+Piper, Shane Stanley, Barry Wainwright, Craig Williams, and foreword by AppleScript inventor,
+William Cook
+Learn AppleScript: The Comprehensive Guide to
+Scripting and Automation on Mac OS X, Third Edition
+Publisher: Apress
+Release Date: May 2010
+ISBN: 9781430223610
+Topic: Cocoa
+START READING NOW
+View table of contents
+2 REVIEWS
+⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 2/39
+About the Publisher
+Apress, a Springer Nature company, is a publisher dedicated to meeting the
+information needs of developers, IT professionals, and tech communities worldwide.
+Our high-quality, practical content helps technology professionals at all levels
+increase the skills ...
+More about Apress
+Table of Contents
+Copyright
+Foreword
+About the Authors
+About the Technical Reviewer
+Acknowledgments
+Introduction
+If You Have Never Scripted Before...
+If You Are Already an AppleScript User...
+If You Are an Experienced Programmer...
+Resources
+Formatting Conventions Used in This Book
+Errata
+1. Welcome to AppleScript
+1. Introducing AppleScript
+1.1. Automating with AppleScript: From Small Tasks to Large
+1.1.1. Automating Small Tasks
+1.1.2. Automating Large Tasks
+1.1.3. When to Automate (or Not)?
+1.2. The Golden Triangle: Scriptable Applications, the AppleScript Language, and the
+Scripts You Write
+1.2.1. What Is a Scriptable Application? ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 3/39
+1.2.1.1. Introducing Objects
+1.2.1.2. Introducing Commands
+1.2.2. What Is the AppleScript Language?
+1.2.3. What Is a Script?
+1.3. Your First AppleScript: Hello World!
+1.4. Summary
+2. AppleScript in Principle
+2.1. The Four Key Concepts of Application Scripting
+2.1.1. How Applications Represent Information As Objects
+2.1.2. How Applications Manipulate Objects Using Commands
+2.1.3. How Applications Organize Their Objects into Object Models
+2.1.4. How Applications Describe Their Objects and Commands in Dictionaries
+2.2. The Four Key Concepts of the AppleScript Language
+2.2.1. How AppleScript Represents Information As Objects
+2.2.2. How AppleScript Manipulates Objects Using Commands, Operators, and
+Variables
+2.2.2.1. Using Commands
+2.2.2.2. Using Operators
+2.2.2.3. Using Variables
+2.2.3. How AppleScript Makes Decisions on What to Do and When to Do It
+2.2.4. How AppleScript Organizes Code Using Handlers and Script Objects
+2.3. Tying It All Together: What Makes AppleScript Special
+2.3.1. The English-like Syntax
+2.3.2. Built-in Application Scripting Support
+2.3.3. Attaching Scripts to Applications
+2.3.4. The AppleScript Community
+2.4. Summary
+3. AppleScript in Practice
+3.1. The Project: Tidy Desktop
+3.2. Planning the Script
+3.3. Writing the Script
+⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 4/39
+3.3.1. Creating the Folder Name
+3.3.1.1. Getting Today's Date As Text
+3.3.1.2. Putting the Name Together
+3.3.2. Interacting with the File System
+3.3.2.1. Addressing the Finder
+3.3.2.2. Creating the Archive Folder
+3.3.2.3. Moving the Files
+3.4. Final Thoughts
+3.4.1. Improving Reliability
+3.4.2. Adding Features
+3.4.3. Documenting Your Code
+3.5. Summary
+2. Understanding AppleScript
+4. Writing Scripts in AppleScript Editor
+4.1. Working with Script Windows
+4.1.1. Compiling a Script
+4.1.2. Running and Stopping a Script
+4.1.3. Recording a Script
+4.1.4. Viewing the Result of Running a Script
+4.1.5. Viewing the Events Sent by a Running Script
+4.1.6. Adding a Description to a Script
+4.2. Viewing Application Dictionaries
+4.3. Other Useful AppleScript Editor Features
+4.3.1. Using the Library Window
+4.3.2. Navigating to a Handler in a Script
+4.3.3. Viewing the Event Log History
+4.3.4. Scripting the AppleScript Editor
+4.3.5. Using Context Menu Scripts
+4.3.6. Viewing the Bundle Contents Drawer
+4.3.7. Setting the Script Formatting Preferences
+⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 5/39
+4.4. Saving Scripts
+4.4.1. Text-Based Scripts
+4.4.2. Compiled Scripts
+4.4.2.1. Saving Scripts As Run Only
+4.4.2.2. Saving Scripts As Bundles
+4.4.3. Script-Based Applications (Applets)
+4.4.3.1. Droplets
+4.4.3.2. Stay-Open Applets
+4.4.3.3. Saving Applets As Run Only
+4.4.3.4. Customizing the Startup Screen
+4.5. Other Tools for Writing and Running AppleScripts
+4.5.1. The System-wide Script Menu
+4.5.1.1. Where Are the Menu Scripts Stored?
+4.5.1.2. Adding Your Own Scripts
+4.5.2. Third-Party AppleScript Editors
+4.5.2.1. Smile
+4.5.2.2. Script Debugger
+4.5.3. Developing GUI Applications
+4.5.4. Command-Line Tools
+4.6. Summary
+5. Understanding How Application Scripting Works
+5.1. A Quick Application Scripting Example
+5.2. Understanding Objects
+5.2.1. How Objects Are Categorized by Class
+5.2.2. Introducing Object Properties
+5.2.3. Introducing Object Elements
+5.3. Understanding Commands
+5.3.1. Introducing Command Names
+5.3.2. Introducing Command Parameters
+5.3.3. Commands Must Be Targeted at Objects ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 6/39
+5.3.4. Commands Can Return Results or Report Errors
+5.4. Understanding the Application Object Model
+5.4.1. How Objects Can Contain Other Objects
+5.4.2. How AppleScript Refers to Application Objects
+5.4.3. Exploring a Typical Object Model
+5.5. Understanding Application Dictionaries
+5.5.1. Introducing AppleScript Editor's Dictionary Viewer
+5.5.2. How Classes Are Documented
+5.5.2.1. Viewing the Properties and Elements Defined by a Class
+5.5.2.2. How Inheritance Describes Features Shared Between Classes
+5.5.2.3. Class Definitions Can Be Spread Across More than One Suite!
+5.5.2.4. Browsing the Containment Hierarchy
+5.5.3. How Commands Are Documented
+5.5.4. Application Dictionaries Don't Tell You Everything!
+5.6. More on application Objects
+5.6.1. Creating application Objects
+5.6.1.1. Identifying Applications by Name
+5.6.1.2. Identifying Applications by Path
+5.6.1.3. Identifying Applications by Bundle ID
+5.6.1.4. Identifying Applications by Remote URL
+5.6.2. The Standard Properties of application Objects
+5.6.3. How AppleScript Compiles tell application... Blocks
+5.7. More on Constructing References
+5.7.1. Referring to Properties
+5.7.2. Referring to Elements
+5.7.2.1. Identifying All Elements
+5.7.2.2. Identifying an Element by Its Index, or Position
+5.7.2.3. Identifying an Element by Its Name
+5.7.2.4. Identifying an Element by Its Unique ID
+5.7.2.5. Identifying an Element Before or Aer Another Element ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 7/39
+5.7.2.6. Identifying a Range of Elements
+5.7.2.7. Identifying Elements Using the whose Clause
+5.7.3. Referring to Insertion Locations
+5.8. Summary
+6. Learning to Work with AppleScript Objects
+6.1. How AppleScript Represents Information As Objects
+6.1.1. What Kinds of Objects Does AppleScript Provide?
+6.1.2. Creating New Objects
+6.1.3. Getting Information from Objects
+6.2. How AppleScript Works with Objects
+6.2.1. Manipulating Objects with Commands
+6.2.1.1. Introducing the Five Built-in Commands
+6.2.1.2. Introducing Scripting Addition Commands
+6.2.1.3. Introducing User-Defined Commands
+6.2.2. Manipulating Objects with Operators
+6.2.2.1. What Makes Operators Special?
+6.2.2.2. What Kinds of Operators Does AppleScript Provide?
+6.2.2.2.1. The Concatenation Operator
+6.2.2.2.2. Math Operators
+6.2.2.2.3. Comparison Operators
+6.2.2.2.4. Containment Operators
+6.2.2.2.5. Boolean Operators
+6.2.2.2.6. The Coercion Operator
+6.2.2.2.7. The a reference to Operator
+6.2.3. Coercing Objects
+6.2.4. Storing Objects in Variables
+6.2.4.1. How Are Identifiers Written?
+6.2.4.2. Where Can Variables Be Used?
+6.3. Working with Boolean Objects
+6.3.1. Boolean Operators ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 8/39
+6.3.1.1. The not Operator
+6.3.1.2. The and Operator
+6.3.1.3. The or Operator
+6.3.1.4. How Boolean Operators Are Evaluated
+6.3.2. Boolean-Related Coercions
+6.4. Summary
+7. Working with Text
+7.1. Introducing Text
+7.1.1. A Brief History of Text
+7.1.1.1. When Is Text Not Text?
+7.1.1.2. Understanding Character Sets
+7.1.1.3. The Problem with Character Sets
+7.1.1.4. Unicode to the Rescue!
+7.1.2. Introducing Text in AppleScript 2.0
+7.2. How to Write Literal Strings in AppleScript
+7.3. The Properties of Text
+7.3.1. The class Property
+7.3.2. The length Property
+7.3.3. The quoted form Property
+7.3.4. The id Property
+7.4. The Elements of Text
+7.4.1. Characters
+7.4.2. Words
+7.4.3. Paragraphs
+7.4.4. Text Ranges
+7.5. Operators and Commands
+7.5.1. Joining Strings
+7.5.2. Comparing Strings
+7.5.3. Checking for Strings Within Strings
+7.5.4. Considering and Ignoring Attributes ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 9/39
+7.5.5. The count Command
+7.5.6. The oset Command
+7.5.7. Coercing to and from Text
+7.6. Working with Text Item Delimiters
+7.6.1. Splitting Strings with Text Item Delimiters
+7.6.2. Combining List Items into a Single String
+7.6.3. Finding and Replacing Text
+7.7. How AppleScript Text Works in Tiger
+7.7.1. The Many Dierent Classes of Text
+7.7.2. Working with the Various Text Classes
+7.7.3. The ASCII number and ASCII character Commands
+7.8. Example Projects
+7.8.1. Defining a Find-and-Replace Command
+7.8.2. Transferring Meeting Arrangements from Mail to iCal
+7.8.2.1. Getting the Message from Mail
+7.8.2.2. Parsing the Message Text
+7.8.2.3. Creating the Event in iCal
+7.9. Summary
+8. Working with Numbers
+8.1. Introducing Integers and Reals
+8.2. Operators and Commands
+8.2.1. Math Operations
+8.2.1.1. Adding, Subtracting, Multiplying, and Dividing Numbers
+8.2.1.2. Negating Numbers
+8.2.1.3. Calculating the Integral and Remainder
+8.2.1.4. Using the Exponent Operator
+8.2.2. Comparison Operations
+8.2.2.1. Comparing Reals Can Be Trickier Than You Think
+8.2.2.2. Performing Multiple Comparisons
+8.2.3. Introducing Operator Precedence ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 10/39
+8.2.4. The round Command
+8.2.4.1. Rounding Up
+8.2.4.2. Rounding Down
+8.2.4.3. Rounding Toward Zero
+8.2.4.4. Rounding to Nearest
+8.2.4.5. Rounding As Taught in School
+8.2.5. The random number Command
+8.2.5.1. Random Number Result
+8.2.5.2. Parameters
+8.2.6. Coercing to and from Numbers
+8.3. Example Projects
+8.3.1. Defining a Round-to-Decimal-Places Command
+8.3.2. Blackjack!
+8.3.3. Kitchen Timer
+8.4. Summary
+9. Working with Dates
+9.1. Introducing Dates
+9.1.1. Understanding Date and Time Formats
+9.1.2. Forming Dates On-the-Fly
+9.1.3. Specifying a Time Relative to a Date
+9.2. The Properties of Dates
+9.2.1. The class Property
+9.2.2. The year Property
+9.2.3. The month Property
+9.2.4. The day Property
+9.2.5. The weekday Property
+9.2.6. The hours Property
+9.2.7. The minutes Property
+9.2.8. The seconds Property
+9.2.9. The time Property ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 11/39
+9.2.10. The date string Property
+9.2.11. The short date string Property
+9.2.12. The time string Property
+9.2.13. Setting Date Properties
+9.3. Operators and Commands
+9.3.1. Comparison Operators
+9.3.2. Math Operators
+9.3.2.1. Some Useful Constants
+9.3.2.2. Calculating Time Dierences
+9.3.3. The current date Command
+9.3.4. The time to GMT Command
+9.4. Example Projects
+9.4.1. Deleting Old Files
+9.4.1.1. Creating the Script
+9.4.1.2. Adding the User Interaction Portion
+9.4.2. Alarm Clock
+9.5. Summary
+10. Working with Lists and Records
+10.1. Introducing Lists and Records
+10.1.1. What Is a List?
+10.1.2. What Is a Record?
+10.1.3. How Are Lists and Records Used in Scripts?
+10.2. Working with Lists
+10.2.1. The Properties of a List
+10.2.1.1. The class Property
+10.2.1.2. The length Property
+10.2.1.3. The rest Property
+10.2.1.4. The reverse Property
+10.2.2. The Elements of a List
+10.2.2.1. Getting Items ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 12/39
+10.2.2.2. Setting Items
+10.2.2.3. Adding Items
+10.2.2.4. "Removing" Items
+10.2.3. Operators and Commands
+10.2.3.1. Concatenating Lists
+10.2.3.2. Comparing Lists
+10.2.3.3. Checking for Sublists
+10.2.3.3.1. The starts with Operator
+10.2.3.3.2. The ends with Operator
+10.2.3.3.3. The contains Operator
+10.2.3.3.4. The is in Operator
+10.2.3.3.5. More Uses for Containment Operators
+10.2.3.4. Counting Lists
+10.2.3.5. Coercing to and from Lists
+10.2.4. Processing List Items with a Repeat Loop
+10.2.5. Sorting Items in a List
+10.3. Working with Records
+10.3.1. Getting and Setting the Properties of a Record
+10.3.2. Operators and Commands
+10.3.2.1. Concatenating Records
+10.3.2.2. Comparing Records
+10.3.2.3. Checking for Subrecords
+10.3.2.4. Coercing from Records
+10.3.2.5. Counting Records
+10.4. Example Project: Measuring Word Frequency in TextEdit
+10.4.1. Planning the Script
+10.4.2. Developing the Script
+10.4.3. Conclusion
+10.5. Summary
+11. Storing Objects in Variables ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 13/39
+11.1. Creating Variables
+11.1.1. Declaring Your Variables
+11.1.2. Choosing Your Variable Names
+11.1.2.1. When Keywords and Identifiers Conflict
+11.1.2.2. Tips for Avoiding Problems with Variable Names
+11.1.2.3. Follow Good Naming Practices
+11.1.2.4. Break All the Rules!
+11.2. Working with Local Variables
+11.2.1. Understanding Local Variable Scope
+11.2.2. Passing Values to and from User-Defined Handlers
+11.3. Working with Properties and Global Variables
+11.3.1. Understanding Property and Global Variable Scope
+11.3.2. How Properties (and Global Variables) Can Retain Values Between Runs
+11.3.3. When to Use Properties and Global Variables
+11.3.3.1. Managing User Preferences
+11.3.3.2. Enabling Debugging Code
+11.3.3.3. Clarifying the Meaning of Important Hard-Coded Values
+11.3.3.4. Importing Script Libraries
+11.4. Using AppleScript's Built-in Variables
+11.4.1. Variables Containing Predefined Values
+11.4.1.1. The return, linefeed, space, tab, and quote Variables
+11.4.1.2. The weeks, days, hours, and minutes Variables
+11.4.1.3. The pi Variable
+11.4.2. Variables Containing Objects of Special Interest
+11.4.2.1. The it Variable
+11.4.2.2. The me Variable
+11.4.2.3. The result Variable
+11.5. Summary
+12. More on Commands
+12.1. Understanding How and Where Commands Are Defined ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 14/39
+12.1.1. Application-Defined Commands
+12.1.2. Scripting Addition Commands
+12.1.3. AppleScript Commands
+12.1.4. User-Defined Commands
+12.2. Picking the Right Target for Your Commands
+12.3. The Five Standard AppleScript Commands
+12.3.1. The get Command
+12.3.2. The set Command
+12.3.3. The copy Command
+12.3.4. The count Command
+12.3.5. The run Command
+12.4. Commands That All Applications Understand
+12.4.1. The run Command
+12.4.2. The launch Command
+12.4.3. The open Command
+12.4.4. The activate Command
+12.4.5. The quit Command
+12.5. The Standard Suite of Application Commands
+12.5.1. The get Command
+12.5.2. The set Command
+12.5.3. The make Command
+12.5.4. The exists Command
+12.5.5. The count Command
+12.5.6. The move Command
+12.5.7. The duplicate Command
+12.5.8. The delete Command
+12.5.9. The print Command
+12.5.10. The save Command
+12.5.11. The close Command
+12.6. More on Working with get, set, and copy Commands ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 15/39
+12.6.1. When Do Implicit get Commands Occur?
+12.6.2. When Are Explicit get Commands Necessary?
+12.6.3. Telling the Dierence Between AppleScript and Application set Commands
+12.6.4. Getting and Setting Multiple Values in a Single Statement
+12.6.5. Using copy As an Application Command
+12.7. Changing How Commands Are Handled
+12.7.1. Considering and Ignoring Application Responses
+12.7.2. Considering and Ignoring Other Attributes
+12.7.3. Controlling the Timeout Delay for Long-Running Commands
+12.8. Sending Commands to Remote Applications
+12.8.1. Enabling Remote Apple Events
+12.8.2. Talking to Remote Machines
+12.8.3. Authenticating Access to Remote Machines
+12.8.4. Compiling Scripts Oline
+12.8.5. Using the choose remote application Command
+12.8.6. Targeting Remote Applications by User and Process IDs
+12.8.7. Launching Remote Applications
+12.9. Summary
+13. More on Operators and Coercions
+13.1. Understanding the a reference to Operator
+13.2. Introducing Unit Type Conversions
+13.3. A Summary of AppleScript Coercions
+13.3.1. Coercing Class and Constant Names
+13.3.2. Coercing Numbers and Text
+13.3.3. Coercing File Objects
+13.3.4. Coercing Lists
+13.4. A Summary of AppleScript Operators
+13.4.1. Boolean Logic Operators
+13.4.2. The Concatenation Operator
+13.4.3. Math Operators ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 16/39
+13.4.4. Comparison Operators
+13.4.5. Containment Operators
+13.4.6. The Coercion Operator
+13.4.7. The a reference to Operator
+13.5. Operator Precedence in Detail
+13.5.1. Understanding Precedence
+13.5.2. Understanding Forms of Association
+13.5.3. Understanding when You Should Use Parentheses
+13.6. Summary
+14. Making Decisions Using Conditionals and Loops
+14.1. Choosing Your Course with Conditional Blocks
+14.1.1. Understanding the Basic Conditional Statement
+14.1.2. The Dierent Flavors of Conditional Statements
+14.1.3. Oering an Alternative Ending with the else Clause
+14.1.4. Oering Multiple Choices with else if Clauses
+14.1.5. Tips for Writing Conditional Statements
+14.1.5.1. Using a Condition in a Single Line
+14.1.5.2. Avoiding Unneeded Conditional Statements
+14.1.5.3. Is It True?
+14.1.5.4. Testing a Value Against Multiple Options
+14.2. Running an Assembly Line with Repeat Loops
+14.2.1. The Dierent Flavors of Repeat Loops
+14.2.2. Repeating Forever
+14.2.3. Repeating n Times
+14.2.4. Repeating with Numbers in a Range
+14.2.5. Repeating with Items in a List
+14.2.6. Repeating While/Until a Condition Is Met
+14.2.7. Tips for Writing Repeat Statements
+14.2.7.1. Using Loops to Avoid Repetition
+14.2.7.2. Naming Loop Variables ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 17/39
+14.2.7.3. Choosing the Right Loop for the Job
+14.2.7.4. Avoid Looping when Possible
+14.3. Summary
+15. Making Decisions When Dealing with Errors
+15.1. Understanding Compilation Errors
+15.1.1. Simple Typos
+15.1.2. Unbalanced Statements
+15.1.3. Unbalanced Parentheses and Unescaped Quotes
+15.1.4. Unrecognized Keywords
+15.1.5. Reserved Word Mishaps
+15.1.6. Invalid Date Literals
+15.2. Understanding Runtime Errors
+15.2.1. How Runtime Errors Work in AppleScript
+15.2.2. Understanding the Psychology of an Error
+15.2.3. Understanding the Anatomy of an Error
+15.2.4. Trapping Runtime Errors
+15.2.4.1. Using the try Block
+15.2.4.2. Using the Full try Statement
+15.2.4.3. Knowing What to Do in Case of an Error
+15.2.4.4. Putting Error Numbers to Use
+15.2.4.4.1. Testing For Multiple Error Numbers
+15.2.4.4.2. Nesting try Handlers
+15.2.5. Generating Runtime Errors
+15.2.6. Tips for Handling Runtime Errors
+15.2.6.1. Being Careful Not to Trap Too Much
+15.2.6.2. Providing More Detailed Error Messages
+15.2.6.3. Using a Scriptwide try Statement
+15.2.6.4. Logging Errors to a File
+15.3. Understanding Common Error Numbers
+15.3.1. Identifying Operating System Errors ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 18/39
+15.3.2. Identifying Apple Event Errors
+15.3.3. Identifying Application Scripting Errors
+15.3.4. Identifying AppleScript Language Errors
+15.4. Summary
+16. Interacting with the User
+16.1. Creating Basic Dialog Boxes and Gathering Text Input
+16.1.1. Introducing the display dialog Command
+16.1.1.1. From the Dictionary: display dialog
+16.1.1.2. From the Dictionary: dialog reply
+16.1.1.3. Using the Basic Form of the Command
+16.1.1.4. Dealing with the Erroneous Cancel Button
+16.1.1.5. Creating Custom Buttons
+16.1.1.6. Specifying a Default Button
+16.1.1.7. Specifying a Cancel Button
+16.1.1.8. Adding a Title
+16.1.1.9. Showing Icons in Dialog Boxes
+16.1.1.10. Using an Icon File in a Dialog Box
+16.1.1.11. Getting Text Input from the User
+16.1.1.12. Creating Password Dialog Boxes
+16.1.1.13. Dismissing Dialogs Automatically
+16.1.1.14. Validating User-Entered Text
+16.1.2. Introducing the display alert Command
+16.1.2.1. From the Dictionary: display alert
+16.1.2.2. Using the Basic Form of the Command
+16.1.2.3. Using the message Parameter
+16.1.2.4. Using the as Parameter
+16.1.2.5. Setting the Button Behavior
+16.1.3. Introducing the choose from list Command
+16.1.3.1. From the Dictionary: choose from list
+16.1.3.2. Getting the Results of the Command ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 19/39
+16.1.3.3. Using the Basic Command
+16.1.3.4. Creating a Custom Prompt
+16.1.3.5. Adding a Title
+16.1.3.6. Setting the Default Selection
+16.1.3.7. Restricting the Selection
+16.1.3.8. Customizing Buttons
+16.2. Choosing Files, Folders, and Disks
+16.2.1. Introducing the choose file Command
+16.2.1.1. From the Dictionary: choose file
+16.2.1.2. Getting the Results of the Command
+16.2.1.3. Figuring Out When to Use the Command
+16.2.1.4. Using the Basic Command
+16.2.1.5. Creating a Custom Prompt
+16.2.1.6. Restricting to Specific File Types
+16.2.1.7. Setting the Default Location
+16.2.1.8. Picking Invisibles
+16.2.1.9. Allowing Multiple Selections
+16.2.1.10. Showing Package Contents
+16.2.2. Introducing the choose file name Command
+16.2.2.1. From the Dictionary: choose file name
+16.2.2.2. choose file name vs. choose file
+16.2.2.3. Figuring Out When to Use the Command
+16.2.2.4. Getting the Results of the Command
+16.2.2.5. Using the Basic Command
+16.2.2.6. Creating a Custom Prompt
+16.2.2.7. Setting a Default Name and Location
+16.2.2.8. Replacing an Existing File
+16.2.2.9. Seeing an Example in Action
+16.2.3. Introducing the choose folder Command
+16.2.3.1. From the Dictionary: choose folder ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 20/39
+16.2.3.2. Using the Command
+16.2.3.3. Figuring Out When to Use the Command
+16.2.3.4. Setting the Parameters
+16.2.3.5. Choosing a Folder Once
+16.3. Choosing Other Types of Items
+16.3.1. Introducing the choose application Command
+16.3.1.1. From the Dictionary: choose application
+16.3.1.2. Using the Command
+16.3.2. Introducing the choose remote application Command
+16.3.2.1. From the Dictionary: choose remote application
+16.3.2.2. Using the Command
+16.3.3. Introducing the choose URL Command
+16.3.3.1. From the Dictionary: choose URL
+16.3.3.2. Using the Command
+16.3.4. Introducing the choose color Command
+16.3.4.1. From the Dictionary: choose color
+16.3.4.2. Getting the Results of the Command
+16.3.4.3. Figuring Out When to Use the Command
+16.3.4.4. Using the Basic Command and Using It with Parameters
+16.4. Summary
+17. Working with Files
+17.1. Identifying Files, Folders, and Disks
+17.1.1. Using Path Strings
+17.1.1.1. Let's start with an example of an HFS path: Understanding HFS Paths
+17.1.1.2. Understanding POSIX Paths
+17.1.2. Using File System Objects
+17.1.2.1. Understanding Alias Objects
+17.1.2.1.1. How Aliases Work
+17.1.2.1.2. Using Aliases to Keep Track of File System Items
+17.1.2.1.3. Converting to and from Alias Objects ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 21/39
+17.1.2.2. Understanding File "Objects"
+17.1.2.2.1. How Files (Really) Work
+17.1.2.2.2. Converting to and from File References
+17.1.2.3. Understanding POSIX File Objects
+17.1.2.3.1. How POSIX Files Work
+17.1.2.3.2. Converting to and from POSIX File Objects
+17.1.3. File URL Strings
+17.2. Reading and Writing Files
+17.2.1. Commands for Reading and Writing Files
+17.2.1.1. Reading Files
+17.2.1.1.1. From the Dictionary
+17.2.1.1.2. Using the read Command
+17.2.1.2. Opening and Closing Access to Files
+17.2.1.2.1. From the Dictionary
+17.2.1.2.2. Opening a File for Reading or Writing
+17.2.1.2.3. The open for access Result
+17.2.1.3. Read Command Parameters
+17.2.1.3.1. Reading Dierent Kinds of Data
+17.2.1.3.2. Using a Delimiter to Read Text into a List
+17.2.1.3.3. Reading a Specific Number of Bytes
+17.2.1.3.4. The from and to Parameters
+17.2.1.3.5. The before and until Parameters
+17.2.1.3.6. Using the open for access and read Commands Together
+17.2.1.4. Working with the End-of-File (EOF) Commands
+17.2.1.4.1. From the Dictionary
+17.2.1.4.2. Getting a File's EOF
+17.2.1.4.3. Setting a File's EOF
+17.2.1.5. Writing Files
+17.2.1.5.1. From the Dictionary
+17.2.1.5.2. Using the write Command ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 22/39
+17.2.1.5.3. How Much to Write and Where to Start
+17.2.1.5.4. Useful File Writing Handlers
+17.2.1.5.5. Using the write Command to Create a Script Log
+17.2.1.5.6. Saving and Loading AppleScript Lists and Records
+17.2.2. Dealing with Text File Encodings
+17.2.2.1. About ASCII, MacRoman, and Unicode Character Sets
+17.2.2.2. Reading and Writing Text Files in Dierent Encodings
+17.2.2.2.1. Reading and Writing UTF-8 Encoded Files
+17.2.2.2.2. Reading and Writing UTF-16 Encoded Files
+17.2.2.2.3. Reading and Writing Files in Other Encodings
+17.2.2.3. What Happens if the Wrong Encoding is Used?
+17.2.2.4. A Summary of Common Text File Encodings
+17.2.2.5. Further Reading on Text Encodings
+17.3. Summary
+18. Organizing Your Code with Handlers
+18.1. What Are User-Defined Handlers?
+18.2. Creating a Simple Handler
+18.3. Using Parameters
+18.4. What's the Result?
+18.4.1. Using the return Statement
+18.4.2. Working with Return Values
+18.4.3. Can a Handler Return More Than One Result?
+18.5. Specifying Handler Parameters
+18.5.1. Using Positional Parameters
+18.5.1.1. Definition for Positional Parameter Handlers
+18.5.1.2. Defining and Calling Positional Parameter Handlers
+18.5.1.3. Adding Parameters
+18.5.2. Using Labeled Parameters
+18.5.2.1. Definition for Positional Parameter Handlers
+18.5.2.2. Using Predefined Parameter Labels ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 23/39
+18.5.2.3. Making Up Your Own Labels
+18.5.2.4. Calling Handlers with Boolean Parameters
+18.6. Introducing Recursion
+18.7. Using the run Handler in Scripts
+18.7.1. I've Never Seen No run Handler!
+18.7.2. When Should You Make the run Handler Explicit?
+18.8. Working with Handlers in Applets
+18.8.1. Using the Standard Event Handlers
+18.8.1.1. The run Event Handler
+18.8.1.2. The open Event Handler
+18.8.1.3. The reopen Event Handler
+18.8.1.4. The quit Event Handler
+18.8.1.5. The idle Event Handler
+18.8.2. Using User-Defined Handlers from Other Scripts
+18.9. Tips for Designing and Using Handlers
+18.9.1. Organizing Code
+18.9.2. Reusing Code
+18.9.3. Thinking Ahead
+18.9.4. Thinking Small
+18.9.5. Reorganizing Existing Code
+18.10. Example Project: A Reusable Associative List
+18.10.1. Designing the Associative List
+18.10.2. Writing the Essential Handlers
+18.10.3. Writing the Extra Handlers
+18.10.4. Revising the Design
+18.10.5. Conclusion
+18.11. Summary
+19. Organizing Your Code with Script Objects
+19.1. Introducing Script Objects
+19.1.1. What Is a Script Library? ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 24/39
+19.1.2. What Is Object-Oriented Programming?
+19.2. Understanding Script Objects
+19.2.1. Defining a Script Object in a Script
+19.2.2. Loading and Storing Script Objects from Disk
+19.2.3. How Variable Scope Works in Script Objects
+19.3. Working with Script Libraries
+19.3.1. What Advantages Do Script Libraries Provide?
+19.3.2. Creating Your First Script Library
+19.3.3. Where Should You Save Your Library?
+19.3.4. What Are the Options for Loading Script Libraries?
+19.3.4.1. Using the load script Command
+19.3.4.2. Using AppleMods Loader
+19.4. Beginning Object-Oriented Programming
+19.4.1. Your First Object: A Better Associative List
+19.4.1.1. Planning the Conversion
+19.4.1.2. Converting the make_associative_list Handler
+19.4.1.3. Repackaging the Remaining Handlers
+19.4.1.4. Using the Object-Oriented Associative List
+19.4.2. Extending Objects Through Inheritance
+19.4.2.1. A Quick Reminder of General Inheritance Concepts
+19.4.2.2. How Inheritance Works with Script Objects
+19.4.2.3. Implementing Case-Insensitive and Case-Sensitive Associative Lists
+19.4.2.4. Testing the New Associative List Objects
+19.4.3. Creating Plug-and-Play Objects
+19.4.3.1. Planning the Logging System
+19.4.3.2. Designing the LogBase Object
+19.4.3.3. Defining the Concrete Log Objects
+19.4.3.4. Testing the Finished Logging System
+19.4.3.5. Conclusion
+19.5. Summary ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 25/39
+3. Putting AppleScript to Work
+20. Scripting the File System
+20.1. How the Finder Represents the Mac OS X File System
+20.1.1. Understanding Containers
+20.1.2. Understanding Files
+20.1.3. Understanding Packages
+20.1.4. Understanding the computer-object Class
+20.2. How System Events Represents the Mac OS X File System
+20.2.1. Understanding Files
+20.2.2. Understanding Folders
+20.2.3. Understanding Disks
+20.2.4. Understanding System Events' alias Class
+20.2.5. Other Classes of Interest
+20.2.5.1. The user Class
+20.2.5.2. The domain Class
+20.2.5.3. The login item Class
+20.3. Working with Finder Items
+20.3.1. Opening and Closing Items
+20.3.2. Duplicating Files and Folders
+20.3.3. Deleting Files and Folders
+20.3.4. Moving Files and Folders
+20.3.5. Checking if Items Exist
+20.3.6. Making New Items
+20.3.7. Sorting Lists of Finder References
+20.3.8. Ejecting Disks
+20.3.9. Selecting Items in a Finder Window
+20.3.10. Converting Finder References to AppleScript Aliases
+20.4. More on Working with Folders
+20.4.1. Filtering the Content of Folders
+20.4.2. Getting the Entire Contents of a Folder ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 26/39
+20.5. Locating Important Files and Folders with Standard Additions
+20.5.1. Avoiding Hardcoded Paths to the Startup Disk and Home Folder
+20.5.2. Getting the Path to the Currently Running Script
+20.5.3. Getting Paths to Resources in an Application Bundle
+20.6. Mounting Volumes
+20.7. Summary
+21. Scripting Apple Applications
+21.1. Scripting iTunes
+21.1.1. Understanding the iTunes Object Model
+21.1.2. Working with Sources
+21.1.3. Working with Tracks and Playlists
+21.1.4. Example Project: My Themed Playlist
+21.1.4.1. Gathering the User Input
+21.1.4.2. Preparing the Playlist
+21.1.4.3. Adding the Tracks to the Playlist
+21.2. Scripting Mail
+21.2.1. Working with Mailboxes
+21.2.2. Working with Messages
+21.2.3. Creating Outgoing Messages
+21.2.4. Working with Mail Rules
+21.2.5. Example Project: Building a Monthly Message Archive
+21.2.5.1. Preparing to Write the Script
+21.2.5.2. Creating the Sub-Mailboxes
+21.2.5.3. Putting It All Together
+21.3. Scripting iCal
+21.3.1. Working with Calendars
+21.3.2. Working with Events
+21.4. Scripting Address Book
+21.4.1. Working with People
+21.4.2. Working with Groups ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 27/39
+21.4.3. Working with Rollovers
+21.4.4. Example Project: Looking Up Contact Information by Name
+21.5. Scripting Automator
+21.5.1. Using the Run AppleScript Action
+21.5.1.1. Understanding the Action's Input and Output
+21.5.1.2. Understanding the Action's Parameters
+21.5.1.3. Filtering Files with Run AppleScript
+21.5.2. Scripting the Automator Application
+21.6. Summary
+22. Extending AppleScript with Scripting Additions
+22.1. Introducing Scripting Additions and Scriptable Faceless Background Applications
+22.2. Scripting Additions in Detail
+22.2.1. Scripting Additions and the AppleScript Language
+22.2.2. Installing Scripting Additions
+22.2.3. Missing Additions and Garbled Scripts
+22.2.4. Distributing Scripting Additions with Your Scripts
+22.2.4.1. Embedding Scripting Additions Within a Script Application
+22.2.4.2. Using the Mac OS X Installer to Install Your Script and Scripting
+Additions
+22.2.5. Understanding Scripting Addition Compatibility Issues
+22.2.5.1. Caution: Mac OS 9 Scripting Additions Don't Work on Mac OS X
+22.2.5.2. Using PowerPC-Only Scripting Additions on Intel-Based Macs
+22.2.5.3. Using 32-Bit-Only Scripting Additions on 64-Bit Macs
+22.2.5.4. Working Around Scripting Addition Limitations
+22.3. Understanding Scriptable Faceless Background Applications
+22.3.1. Installing Scriptable FBAs
+22.3.2. Distributing Scriptable FBAs with Your Scripts
+22.4. Examples of AppleScript Extensions
+22.4.1. Built-in Extensions
+22.4.2. Third-Party Extensions
+22.5. Using the Standard Additions Scripting Addition
+⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 28/39
+22.5.1. Providing Audio Feedback
+22.5.1.1. The beep Command
+22.5.1.2. The say Command
+22.5.2. Pausing Your Scripts
+22.5.2.1. The delay Command
+22.5.3. Getting and Setting the System Volume
+22.5.3.1. The get volume settings Command
+22.5.3.2. The set volume Command
+22.5.4. Getting System Information
+22.5.4.1. The system attribute Command
+22.5.4.2. The system info Command
+22.5.5. Working with URLs
+22.5.5.1. The open location Command
+22.5.5.2. Coercing URLs
+22.6. Using the Image Events Faceless Background Application
+22.7. Processing Text with the Satimage Scripting Addition
+22.7.1. Downloading and Installing the Satimage Scripting Addition
+22.7.2. Performing Simple Find and Replace Tasks
+22.7.3. Counting Occurrences of a Substring in a String
+22.7.4. Finding and Replacing Substrings in a File
+22.7.5. Searching and Replacing Across Many Files
+22.7.6. Finding and Replacing Text with Regular Expressions
+22.7.6.1. A Brief Background on Regular Expressions
+22.7.6.2. Using Satimage Regular Expression Commands
+22.7.7. Batch-Changing File Names
+22.8. Summary
+23. AppleScript Amenities
+23.1. Using the Services Menu
+23.1.1. AppleScript Editor Services
+23.1.2. Creating Your Own Services ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 29/39
+23.2. Scheduling Scripts with iCal
+23.3. Triggering Scripts with Folder Actions
+23.3.1. Defining Event Handlers for Folder Actions
+23.3.2. Where Are Folder Action Scripts Stored?
+23.3.3. Managing Your Folder Actions
+23.3.3.1. Using the Folder Actions Setup Utility
+23.3.3.2. Using Scripts
+23.3.4. Creating Your First Folder Action
+23.3.4.1. Create Your Folder Action Script
+23.3.4.2. Save Your Script
+23.3.4.3. Create Your Hot Folder
+23.3.4.4. Activate the Folder Actions Setup Utility
+23.3.4.5. Attach the Folder Action Script to the Folder
+23.3.4.6. Test Your Folder Action
+23.4. Controlling Applications with GUI Scripting
+23.4.1. Enabling GUI Scripting
+23.4.2. The GUI Scripting Dictionary
+23.4.3. GUI Scripting Object Structure
+23.4.4. Basic GUI Scripting Examples
+23.4.5. Using GUI Scripting Commands
+23.4.5.1. The click Command
+23.4.5.2. The keystroke Command
+23.4.5.3. The key code Command
+23.4.6. Example Project: Searching in Preview
+23.4.6.1. Introducing PreFab UI Browser
+23.4.6.2. Beginning the Script
+23.4.6.3. Performing the Search
+23.4.6.4. Getting Data from the Search Table
+23.4.7. Understanding the Limitations of GUI Scripting
+23.5. Working with the Clipboard ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 30/39
+23.5.1. Getting Clipboard Data into AppleScript
+23.5.1.1. Understanding How the Mac Clipboard Works
+23.5.1.2. Finding Out What's on the Clipboard
+23.5.1.3. Getting Specific Types of Data from the Clipboard
+23.5.2. Setting the Clipboard Data
+23.5.2.1. Using the cut, copy, and paste Commands in Applications
+23.5.2.2. Using the set the clipboard to Command
+23.5.2.3. Using GUI Scripting
+23.5.3. Example Project: Creating PDF Cuttings from Selections in Preview
+23.6. Summary
+24. Scripting iWork and Oice
+24.1. Scripting iWork
+24.1.1. Scripting Pages
+24.1.1.1. Creating a New Document
+24.1.1.2. Working with a Document's Paragraphs
+24.1.1.3. Adding Headers and Footers to a Document
+24.1.1.4. Drawing Shapes in Pages
+24.1.1.5. Adding Tables and Charts
+24.1.1.6. Tips for Scripting Pages
+24.1.2. Scripting Keynote
+24.1.2.1. Creating a Slideshow
+24.1.2.2. Choosing a Theme
+24.1.2.3. Filling Slides with Content
+24.1.2.4. Working with Transitions
+24.1.2.5. Scripting an Advanced Screen Reader
+24.1.2.6. Tips for Scripting Keynote
+24.1.3. Scripting Numbers
+24.1.3.1. Creating Sheets and Tables
+24.1.3.2. Working with Cells
+24.2. Scripting Microso Oice ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 31/39
+24.2.1. Working with Microso Entourage
+24.2.1.1. Disable the Security Warning
+24.2.1.2. Creating Messages
+24.2.1.3. Some Shortcuts
+24.2.1.4. Working with Contacts
+24.2.1.4.1. Creating Contacts
+24.2.1.4.2. Selecting and Changing Multiple Contacts
+24.2.1.4.3. Setting Categories
+24.2.1.4.4. Creating Calendar Events
+24.2.1.4.5. Extracting Information from a Whole Lot of Messages in a
+Folder
+24.2.2. Working with Excel
+24.2.2.1. Creating Workbooks and Worksheets
+24.2.2.2. Working with Ranges
+24.2.2.3. Creating Charts
+24.2.3. Working with Word
+24.2.3.1. Creating a Word Document
+24.2.3.2. Working with Selected Text
+24.2.4. Where Next?
+24.3. Summary
+25. Scripting Data and Databases
+25.1. Automating FileMaker Pro with AppleScript
+25.1.1. The FileMaker Object Model and the Commands You Can Use
+25.1.1.1. The database Class
+25.1.1.2. The window Class
+25.1.1.3. The table Class
+25.1.1.4. The layout Class
+25.1.1.5. The record, field, and cell Classes
+25.1.2. Finding Data Quickly with the whose Clause
+25.1.2.1. Using the whose Clause to Retrieve Relational Data
+25.1.2.2. Using the find Command
+⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 32/39
+25.1.3. Running AppleScripts from Inside FileMaker Pro
+25.2. Scripting Runtime Labs' MacSQL
+25.2.1. Getting Connected
+25.2.2. Using a Simple select Command
+25.2.3. More on Result Sets
+25.2.4. Some Useful Handlers
+25.3. Database Events
+25.3.1. Database Events Classes and Commands
+25.3.2. Database Events Examples
+25.4. Summary
+26. Scripting Adobe InDesign
+26.1. Learning by Example
+26.2. Understanding the InDesign Object Model
+26.2.1. How InDesign Organizes Its Many Properties
+26.2.2. How InDesign Manages Units of Measurement
+26.2.3. How to Set Properties Safely when Making New Objects
+26.3. Working with Documents
+26.3.1. Working with Document Layers
+26.3.2. Understanding InDesign References
+26.4. Working with Text
+26.4.1. Working with Text Stories
+26.4.2. Working with References to Text
+26.5. Working with Graphics
+26.6. Drawing Lines
+26.7. Example Project: An InDesign Scripts Launcher
+26.8. Working with Tables
+26.8.1. Importing Table Text from a Spreadsheet
+26.8.2. Copying Formatting Between Cells
+26.9. Working with Selections
+26.9.1. Example Project: Captioning a Selected Graphic ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 33/39
+26.9.2. Example Project: Cleaning Up Selected Text
+26.10. Labeling Objects for Use in Workflow Scripts
+26.11. Taking Advantage of AppleScript-Specific Preferences
+26.12. Example Project: Replacing Tags with Images
+26.12.1. Preparing InDesign
+26.12.2. Processing the Tags
+26.12.3. Preparing the Image Files
+26.12.4. Placing the Graphics
+26.12.5. Testing the Script
+26.13. Using InDesign on a Server
+26.14. Summary
+27. Interacting with the Unix Command Line
+27.1. Why and When Are Shell Scripts Used in AppleScript?
+27.2. Understanding Unix Scripting Concepts
+27.2.1. The Unix Command Line and Mac Desktop Compared
+27.2.2. How the Unix Command Line Works
+27.2.2.1. The Shell
+27.2.2.2. Commands
+27.2.2.3. Pipes
+27.2.2.4. Other Redirections
+27.2.3. Getting Help
+27.2.3.1. Built-in Help
+27.2.3.2. Other Sources of Help
+27.2.4. Things to Watch Out For
+27.2.4.1. Data in Unix Is "Dumb"
+27.2.4.2. Unix Doesn't Know About Dierent Character Sets
+27.2.4.3. Unix Understands POSIX File Paths Only
+27.2.4.4. Watch Where You Use Spaces and Other Special Characters!
+27.2.4.5. Unix Assumes You Know What You're Doing
+27.2.5. Some Useful Unix Commands ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 34/39
+27.3. Running Shell Scripts from AppleScript
+27.3.1. Scripting the Terminal Application
+27.3.1.1. Understanding Terminal's Object Model
+27.3.1.2. Using the do script Command
+27.3.1.3. A Simple do script Example
+27.3.1.4. Limitations of the do script Command
+27.3.2. Using the do shell script Command
+27.3.2.1. From the Dictionary
+27.3.2.2. Understanding the do shell script Command's Parameters
+27.3.2.2.1. The Direct Parameter
+27.3.2.2.2. The as Parameter
+27.3.2.2.3. The administrator privileges Parameter
+27.3.2.2.4. The user name and password Parameters
+27.3.2.2.5. The altering line endings Parameter
+27.3.2.3. How do shell script Deals with Unicode
+27.3.2.4. A Simple do shell script Example
+27.3.2.5. Limitations of the do shell script Command
+27.3.2.5.1. No User Interaction
+27.3.2.5.2. Performance Overheads
+27.3.2.5.3. Can't Directly Supply Data to Standard Input
+27.3.3. Assembling Shell Script Strings
+27.3.3.1. Unix File Paths
+27.3.3.2. Quoting Arguments
+27.3.3.3. Absolute Paths, Relative Paths, and the Working Directory
+27.3.4. Passing Data to Standard Input
+27.3.4.1. Using echo
+27.3.4.2. Using Temporary Files
+27.3.4.2.1. Creating the Temporary File
+27.3.4.2.2. Writing the Temporary File
+27.3.4.2.3. Redirecting the Shell Script ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 35/39
+27.4. Running AppleScript from Shell Scripts
+27.4.1. Using the osascript Command
+27.4.2. Passing Parameters to the Script
+27.4.3. Other Related Commands
+27.5. Example Projects
+27.5.1. Simple Text Processing Handlers
+27.5.1.1. Encoding URLs
+27.5.1.2. Changing Case
+27.5.2. Changing File System Permissions
+27.5.3. Analyzing PDF Files
+27.6. Summary
+28. Using Smile: The AppleScript Integrated Production Environment
+28.1. Introducing Smile
+28.1.1. Introducing Smile's Integrated Engine Architecture
+28.1.2. About Smile's Terminal
+28.1.3. Why Should You Use Smile?
+28.2. Downloading Smile
+28.3. Using Smile
+28.3.1. Using the AppleScript Command-Line Environment
+28.3.2. Using Smile's Custom Dialog Boxes
+28.3.2.1. Creating the Interface
+28.3.2.2. Programming the Functionality
+28.3.3. Using Regular Expressions
+28.3.4. Using the Graphic Engine
+28.3.5. Using SmileLab
+28.4. Example Project: Adding Text to a PDF Document
+28.4.1. Preparing the PDF
+28.4.2. Rolling Up the Scripts into a Graphical Interface
+28.4.2.1. Building the Interface
+28.4.2.2. Programming the Dialog Box ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 36/39
+28.4.2.3. Handling User Clicks
+28.4.3. Further Exercises
+28.5. Summary
+29. Tips and Techniques for Improving Your Scripts
+29.1. Design, in a Nutshell
+29.1.1. Taking Your Scripting Skills to the Next Level
+29.1.2. How Much Design Do Your Scripts Need?
+29.1.3. Starting Out Is Hard (But Gets Easier with Practice)
+29.1.4. How the Design-Driven Approach Changes the Way You Think About Code
+29.2. Testing and Debugging Your Code
+29.2.1. General Testing Tips and Techniques
+29.2.1.1. Design Your Scripts for Easy Testing
+29.2.1.2. Test Your Code with Bad Data As Well As Good
+29.2.1.3. Test Your Code As You Go
+29.2.1.4. Why Testing Matters
+29.2.2. Debugging in AppleScript Editor
+29.2.2.1. Viewing Intermediate Results with return and error Statements
+29.2.2.2. Monitoring a Script's Progress Using Dialog Boxes
+29.2.2.3. Using the Event Log
+29.2.3. Debugging in Script Debugger
+29.2.3.1. Using the start log and stop log Commands
+29.2.3.2. Using the Script Window
+29.2.3.3. Using the Debugging Mode
+29.2.3.4. Stepping Through Scripts
+29.2.4. Keeping Track of Changes
+29.2.4.1. Comparing Scripts with FileMerge
+29.2.4.2. Managing Your Code with Source Control
+29.3. Improving the Performance of Your Code
+29.3.1. The Dos and Don'ts of Optimization
+29.3.1.1. When Should You Optimize? ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 37/39
+29.3.1.2. Where Should You Optimize?
+29.3.1.3. Profiling Your Code with Timing Commands
+29.3.2. Common AppleScript Optimizations
+29.3.2.1. Building Up Large Lists
+29.3.2.2. Building Up Large Strings
+29.3.2.3. Manipulating Multiple Application Objects with a Single Command
+29.3.2.4. Filtering Multiple Application Objects with whose Clause References
+29.3.3. Advanced Optimization Techniques
+29.3.3.1. Assessing Your Code's Eiciency with Big O Notation
+29.3.3.2. Improving the Eiciency of AppleScript Lists
+29.3.3.3. Linear Search vs. Binary Search
+29.3.3.4. Bubble Sort vs. Quicksort
+29.4. Summary
+30. Creating Cocoa Applications with AppleScriptObjC
+30.1. Example Project: HelloAppleScriptObjC
+30.1.1. Creating the Project in Xcode
+30.1.2. Adding the AppleScript Code in Xcode
+30.1.3. Constructing the Interface in Interface Builder
+30.1.3.1. Understanding Interface Builder's Interface
+30.1.3.1.1. The MainMenu Window
+30.1.3.1.2. The Application Window
+30.1.3.1.3. The MainMenu.xib – English Window
+30.1.3.1.4. The Library Palette
+30.1.3.2. Adding the GUI Objects
+30.1.3.3. Making Connections
+30.1.4. Building and Testing the Application
+30.2. Understanding How Cocoa Works
+30.2.1. Understanding Outlets
+30.2.2. Understanding Targets and Actions
+30.2.3. How AppleScript Interacts with Cocoa Objects ⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 38/39
+30.3. Modifying HelloAppleScriptObjC to Set the Text Field
+30.3.1. Updating the Code and Testing the Changes
+30.3.2. What Is All That Code in the Default AppleScript File?
+30.4. Example Project: PlaySound
+30.4.1. Creating the Project and Adding the Code
+30.4.2. Constructing the Interface
+30.4.3. Building and Testing the Application
+30.4.4. Understanding How It Works
+30.5. Viewing the Cocoa Documentation in Xcode
+30.5.1. How Cocoa Classes Are Documented
+30.5.2. How Cocoa Methods Are Documented
+30.5.2.1. The Method Name
+30.5.2.2. Parameters
+30.5.2.3. Return Value
+30.5.2.4. Discussion, Availability, See Also, Related Sample Code, and
+Declared In
+30.6. Example Project: SnapShot
+30.6.1. Creating the Project and Starting the Code
+30.6.2. Constructing the Interface
+30.6.3. Completing the Code
+30.6.4. Understanding How It Works
+30.6.5. Preparing the Text Fields Using an awakeFromNib Handler
+30.6.6. Building and Testing the Application
+30.7. Modifying SnapShot to Use Cocoa Bindings
+30.7.1. Adjusting the Code for Bindings
+30.7.2. Setting Up Bindings in Interface Builder
+30.7.3. Building and Testing the Application
+30.8. Modifying PlaySound to Use Bundled Sound Files
+30.8.1. Adding the Sound File Resources to the Project
+30.8.2. Adding the Code
+30.8.3. Adding the Pop-Up Button
+⬆
+10/5/2020 Learn AppleScript: The Comprehensive Guide to Scripting and Automation on Mac OS X, Third Edition
+https://learning.oreilly.com/library/view/learn-applescript-the/9781430223610/#toc 39/39
+Support / Sign Out
+© 2020 O'Reilly Media, Inc.
+Terms of Service / Privacy Policy
+30.8.4. Building and Testing the Application
+30.8.5. Understanding How It Works
+30.9. Example Project: KitchenTimer
+30.9.1. Creating the Project and Starting the Code
+30.9.2. Constructing the Interface
+30.9.3. Completing the Code
+30.10. Extra Exercises
+30.11. Where Next?
+30.12. Summary
+30.13. Conclusion
+⬆
